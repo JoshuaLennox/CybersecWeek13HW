@@ -10,6 +10,18 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
 [Ansible Hosts](https://github.com/JoshuaLennox/CybersecWeek13HW/blob/1fb514d9c5db790a8528616a97fa41504d79c14b/Ansible/hosts)
 
+[Pentest VM Playbook .yml file](https://github.com/JoshuaLennox/CybersecWeek13HW/blob/3796aa346040b9736bbe3d253f5d1eacfa7419cf/Ansible/pentest.yml)
+
+[Install Elk VM Playbook .yml file](https://github.com/JoshuaLennox/CybersecWeek13HW/blob/3796aa346040b9736bbe3d253f5d1eacfa7419cf/Ansible/install-elk.yml)
+
+[Filebeat Config file](https://github.com/JoshuaLennox/CybersecWeek13HW/blob/3796aa346040b9736bbe3d253f5d1eacfa7419cf/Ansible/filebeat-config.yml)
+
+[Filebeat Playbook .yml file](https://github.com/JoshuaLennox/CybersecWeek13HW/blob/3796aa346040b9736bbe3d253f5d1eacfa7419cf/Ansible/filebeat-playbook.yml)
+
+[Metricbeat Confile .yml file](https://github.com/JoshuaLennox/CybersecWeek13HW/blob/3796aa346040b9736bbe3d253f5d1eacfa7419cf/Ansible/metricbeat-config.yml)
+
+[Metricbeat Playbook .yml file](https://github.com/JoshuaLennox/CybersecWeek13HW/blob/3796aa346040b9736bbe3d253f5d1eacfa7419cf/Ansible/metricbeat-playbook.yml)
+
 This document contains the following details:
 - Description of the Topology
 - Access Policies
