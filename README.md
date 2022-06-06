@@ -18,7 +18,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
 [Filebeat Playbook .yml file](https://github.com/JoshuaLennox/CybersecWeek13HW/blob/3796aa346040b9736bbe3d253f5d1eacfa7419cf/Ansible/filebeat-playbook.yml)
 
-[Metricbeat Confile .yml file](https://github.com/JoshuaLennox/CybersecWeek13HW/blob/3796aa346040b9736bbe3d253f5d1eacfa7419cf/Ansible/metricbeat-config.yml)
+[Metricbeat Confile file](https://github.com/JoshuaLennox/CybersecWeek13HW/blob/3796aa346040b9736bbe3d253f5d1eacfa7419cf/Ansible/metricbeat-config.yml)
 
 [Metricbeat Playbook .yml file](https://github.com/JoshuaLennox/CybersecWeek13HW/blob/3796aa346040b9736bbe3d253f5d1eacfa7419cf/Ansible/metricbeat-playbook.yml)
 
