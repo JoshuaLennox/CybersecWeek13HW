@@ -102,9 +102,11 @@ Answer the following questions to fill in the blanks:_
  
 Specific commands the user will need to run to download the playbook, update the files (Commands needed to setup up a new VM)
 
-Command:                                                                 Outcome:
-curl -L -O [url of file]                                                 Command to download the files off the web
-nano /etc/ansible/hosts                                                  Open and edit the hosts files to enter new VM internal IP's for updating
-nano /etc/ansible/files/filebeat-config.yml                              To update the filebeat config file
-nano /etc/ansible/files/metricbeat-config.yml                            To update the metricbeat config file
-ansible-playbook [location][filename]                                    To run the playbook
+| Command:                                      | Outcome:                                                                 |
+|-----------------------------------------------|--------------------------------------------------------------------------|
+| curl -L -O [url of file]                      | Command to download the files off the web                                |
+| nano /etc/ansible/hosts                       | Open and edit the hosts files to enter new VM internal IP's for updating |
+| nano /etc/ansible/ansible.cfg                 | To configure the ansible.cfg file                                        |
+| nano /etc/ansible/files/filebeat-config.yml   | To update the filebeat config file                                       |
+| nano /etc/ansible/files/metricbeat-config.yml | To update the metricbeat config file                                     |
+| ansible-playbook [location][filename]         | To run the playbook                                                      |
