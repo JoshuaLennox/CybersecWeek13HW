@@ -6,7 +6,7 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the yml and config files may be used to install only certain pieces of it, such as Filebeat.
 
-Ansible/ansible.cfg
+[Ansible/ansible.cfg](https://github.com/JoshuaLennox/CybersecWeek13HW/blob/fd7cb918307ff2691660044a49d951de86bf51d2/Ansible/ansible.cfg)
 
 This document contains the following details:
 - Description of the Topology
