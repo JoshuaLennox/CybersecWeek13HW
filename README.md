@@ -4,9 +4,9 @@ The files in this repository were used to configure the network depicted below.
 
 ![alt text](https://github.com/JoshuaLennox/CybersecWeek13HW/blob/main/Images/Network_Diagram.png)
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the yml and config files may be used to install only certain pieces of it, such as Filebeat.
 
-  - _TODO: Enter the playbook file._
+Ansible/ansible.cfg
 
 This document contains the following details:
 - Description of the Topology
@@ -24,7 +24,7 @@ Load balancing ensures that the application will be highly avaliable, in additio
 - Load balancers protect the avaliability of a network by distributing traffic across web servers and also has the ability to restrict access to the network.  
 - A jump box provides a centralised point for admin rollout into a network. Its a hardened and monitored machine that provides another secure layer between external and internal assets.
 
-Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the _____ and system _____.
+Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the logs and system traffic.
 - Filebeat monitors log files and forwards them to either Elasticsearch or Logstash for indexing.
 - Metricbeat collects metrics from the operating system and the services running on the server. It then forwards the metrics to Elasticsearch or Logstash.
 
