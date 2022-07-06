@@ -95,9 +95,10 @@ We have installed the following Beats on these machines:
 - Metricbeat (Optional - Completed)
 
 These Beats allow us to collect the following information from each machine:
-- Filebeat - Quote "Filebeat is a lightweight shipper for forwarding and centralizing log data. Installed as an agent on your servers, Filebeat monitors the log files or locations that you specify, collects log events, and forwards them either to Elasticsearch or Logstash for indexing."
+- Filebeat - a program that forwards log data from the machine its installed on to Elasticsearch for compiling of the log data. See below for examples of what log data filebeat can manage.
    - MySQL, Microsoft Azure web server logs, Apache.
-- Metricbeat - Quote "Metricbeat takes the metrics and statistics that it collects and ships them to the output that you specify, such as Elasticsearch or Logstash. Metricbeat helps you monitor your servers by collecting metrics from the system and services running on the server, such as: Apache."
+
+- Metricbeat - a program that forwards metric data from services and systems running on a server to Elasticsearch for compiling of the metric data. See below for examples of what metric data metricbeat can manage
    - Machine statistics logs, Network statistics logs
 
 ### Using the Playbook
